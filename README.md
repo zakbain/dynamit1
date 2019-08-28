@@ -16,3 +16,6 @@ Solution to Question 1: Implementation of text word counter
 	* cd src
 	* java Application
 
+### Result ###
+Open result.txt for the solution
+
