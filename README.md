@@ -19,3 +19,9 @@ Solution to Question 1: Implementation of text word counter
 ### Result ###
 Open result.txt for the solution
 
+
+### Possible Improvements ###
+* Align text
+* Pass in input text by specifying a file name in the command line
+* Output to a specific file
+

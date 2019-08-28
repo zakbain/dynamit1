@@ -163,6 +163,7 @@ never		1
 take		1
 italicize		1
 letter-upon-letter		1
+everywhere		1
 shuttered		1
 know		1
 aloud		1
@@ -220,10 +221,10 @@ sight		1
 panicked		1
 easily		1
 hate		1
-everywhere—there's		1
 businesses		1
 if		1
 Boston		1
+there's		1
 grows		1
 unbroken		1
 Added		1

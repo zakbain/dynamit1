@@ -37,7 +37,7 @@ public class WordCounter {
 
     // Scrub text to remove all commas, quotes, question marks, and periods
     private static String scrubText(String text) {
-        return text.replaceAll("[\\.|,|\\?|\"]", "");
+        return text.replaceAll("[\\.|,|\\?|\"]", "").replaceAll("—", " ");
     }
 
     // Sort the map in descending order by the Integer value
