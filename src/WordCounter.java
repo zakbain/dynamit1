@@ -15,11 +15,12 @@ public class WordCounter {
         Map<String, Integer> wordCounts = new HashMap<>();
         String[] words = scrubbedText.split(wordSplitRegex);
         for (String word : words) {
-            if (wordCounts.containsKey(word)) {
-                Integer count = wordCounts.get(word);
-                wordCounts.put(word, count + 1);
+            String lowerWord = word.toLowerCase();
+            if (wordCounts.containsKey(lowerWord)) {
+                Integer count = wordCounts.get(lowerWord);
+                wordCounts.put(lowerWord, count + 1);
             } else {
-                wordCounts.put(word,1);
+                wordCounts.put(lowerWord,1);
             }
         }
         Map<String, Integer> sortedWordCounts = sortMap(wordCounts);
